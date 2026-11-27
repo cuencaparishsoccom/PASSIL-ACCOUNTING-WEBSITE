@@ -1,0 +1,47 @@
+Attached Element Context from Integrated Browser
+
+Element: span
+
+URL: http://127.0.0.1:8765/
+
+HTML Path: div.app-shell > main.main-area > section#page-content.page-content > div.template-workspace > section.panel.template-preview-panel > div#template-receipt-preview.template-preview-canvas > article.receipt.receipt-cash-donation > footer.cash-receipt-footer > div.cash-receipt-signatures > div.cash-receipt-signature.template-block-selected > span
+
+Outer HTML:
+```html
+<span>Received by:</span>
+```
+
+Dimensions:
+- top: 154px
+- left: 301px
+- width: 148px
+- height: 11px
+
+CSS:
+```css
+* { box-sizing: border-box; }
+.cash-receipt-signature span { font-size: 10px; font-weight: 700; }
+
+/* Inherited */
+.cash-receipt-signature { text-align: center }
+.template-preview-canvas [data-template-movable="true"] { cursor: grab }
+.receipt { color: #202a25; font-family: Helvetica, "Helvetica Neue", Arial, sans-serif }
+.receipt-cash-donation, .receipt-in-kind, .receipt-income, .receipt-disbursement, .receipt-cash-return, .receipt-reimbursement { color: #111 }
+body { color: var(--ink) }
+:root { font-family: Helvetica, "Helvetica Neue", Arial, sans-serif }
+
+/* Resolved values */
+box-sizing: border-box;
+color: rgb(17, 17, 17);
+cursor: grab;
+display: block;
+font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+font-size: 10px;
+font-weight: 700;
+height: 11px;
+text-align: center;
+width: 148px;
+
+/* CSS variables */
+--ink: #1d2925;
+```
